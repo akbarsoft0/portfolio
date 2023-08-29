@@ -354,6 +354,28 @@ footer .hbtn {
 
 }
 
+.center {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank {
+    width: min(500px, 80%);
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #444;
+}
+
+.thank .mail {
+    color: lightblue;
+}
+
+.thank .hbtn {
+    margin: 1rem auto;
+}
+
 @media only screen and (max-width: 600px) {
     .tea {
         display: block;
