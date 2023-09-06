@@ -159,7 +159,7 @@ h6 {
 .projects a {
     font-weight: 600;
     text-transform: uppercase;
-    padding: 0.6rem 1rem;
+    padding: 7px;
 }
 
 .projects a:after {
@@ -217,9 +217,8 @@ h6 {
 }
 
 .projects ol li {
-    padding: 9px;
-    list-style-type: none;
-    border-bottom: 1px solid;
+    /* list-style-type: none;. */
+    /* border-bottom: 1px solid; */
 }
 
 /* footer */
